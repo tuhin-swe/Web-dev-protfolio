@@ -12,8 +12,14 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark1{
+    color: #181818;
+}
 .dark2{
     color: #474747;
+}
+.dark3{
+    color: #757575;
 }
 .btn-primary{
     background-color:#FD6E0A ;
@@ -25,6 +31,12 @@
     border: none;
     cursor: pointer;
     
+}
+/* Header */
+.header{
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 /* Nav Style */
 nav{
@@ -50,4 +62,30 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner Style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+
+}
+
+.banner-pro-pic{
+    width: 580px;
 }
